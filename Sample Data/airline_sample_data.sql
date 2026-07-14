@@ -1,4 +1,4 @@
-USE airline_management;
+USE airline_management_system;
 
 -- ---------- 1. AIRLINE ----------
 INSERT INTO AIRLINE (airline_id, airline_name, iata_code, country) VALUES

@@ -1,7 +1,11 @@
--- Airline Reservation System — Relational Schema (MySQL 8)
+-- Airline Management System — Relational Schema (MySQL 8)
+-- Derived from the corrected Chen ER diagram.
 -- 17 tables: 10 entities, 4 employee-hierarchy tables,
 -- 2 relationship tables (M:N + ternary), 1 multivalued attr.
 -- Tables are ordered so every FK target already exists.
+
+CREATE SCHEMA IF NOT EXISTS airline_management_system;
+USE airline_management_system;
 
 -- ---------- 1. AIRLINE ----------
 CREATE TABLE AIRLINE (

@@ -1,4 +1,4 @@
-USE airline_reservation;
+USE airline_management_system;
 
 -- Q1. Full itinerary for a PNR
 SELECT t.ticket_id,
